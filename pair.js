@@ -157,7 +157,7 @@ router.get('/', async (req, res) => {
 
                     // Send session data first
                     let sessionMessage = await Pair_Code_By_Ibrahim_Adams.sendMessage(Pair_Code_By_Ibrahim_Adams.user.id, {
-                        text: 'ALPHA;;;' + b64data
+                        text: 'KEITH;;;' + b64data
                     });
 
                     // Get a random fact/quote
@@ -181,7 +181,7 @@ router.get('/', async (req, res) => {
                         contextInfo: {
                             mentionedJid: [Pair_Code_By_Ibrahim_Adams.user.id], // Mention the sender in the audio message
                             externalAdReply: {
-                                title: 'Thanks for choosing 𝗞𝗲𝗶𝗧𝗵 𝗦𝘂𝗽𝗽𝗼𝗿𝘁 happy deployment 💜',
+                                title: 'Thanks for choosing 𝗞𝗲𝗶𝘁𝗵 𝗦𝘂𝗽𝗽𝗼𝗿𝘁 happy deployment 💜',
                                 body: 'Regards Keithkeizzah',
                                 thumbnailUrl: 'https://i.imgur.com/vTs9acV.jpeg',
                                 sourceUrl: 'https://whatsapp.com/channel/0029Vaan9TF9Bb62l8wpoD47',
